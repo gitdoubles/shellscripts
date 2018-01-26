@@ -220,7 +220,7 @@ Main()
 {   
     Echo_motd;
     Add_user;
-#    Down_mysql;
+    Down_mysql;
     Add_dir;
     Install_mysql;
     Start_mysql;
