@@ -162,16 +162,6 @@ log-error=${MYSQLDB_DATA_HOME}/mysqld.log
 pid-file=${MYSQLDB_DATA_HOME}/mysqld.pid" >./my.cnf
     fi
     [ $? -eq 0 ] && echo "my.cnf created successfull!!"
-    #if [ -s /etc/my.cnf ]; then  
-    #    mv /etc/my.cnf /etc/my.cnf.`date +%Y%m%d%H%M%S`.bak  
-    #fi 
-    #cp ${MYSQLDB_BASE_HOME}/my.cnf /etc/my.cnf
-    #if(( $? == 0 ))
-    #then
-    #    echo "/etc/my.cnf created  sucessfully!"   
-    #else
-    #    echo "/etc/my.cnf created failed!"  
-    #fi
     # add the bin to the path
     echo "add the $MYSQLDB_BASE_HOME/bin to the path!"
     cat >> /etc/profile <<EOF  
