@@ -21,10 +21,10 @@ ERROR_EXIT=65
 #==============================
 Echo_motd()
 {
-    echo "========================================"
-    echo "Setup $MYSQL_VERSION on your system."
-    echo "You will input mysql's root password later."
-    echo "======================================="
+    echo "#=======================================================================#"
+    echo "# Setup $MYSQL_VERSION on your system.                                  #"                               
+    echo "# You will input mysql's root password later.                           #"
+    echo "#=======================================================================#"
     sleep 1
 }
 
