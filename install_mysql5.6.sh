@@ -1,4 +1,10 @@
 #!/bin/bash
+#=======================================================================#
+#   System Supported:  CentOS 6+、7+                                    #
+#   Description: mysql linux generic version Auto Installer             #
+#   Author: Doubles <doubles159@163.com>                                #
+#   Date: 2018-01-26                                                    #
+#=======================================================================#
 
 GROUP_NAME=mysql  
 USER_NAME=mysql  
@@ -224,7 +230,7 @@ Main()
 {   
     Echo_motd;
     Add_user;
-#    Down_mysql;
+    Down_mysql;
     Add_dir;
     Install_mysql;
     Start_mysql;
